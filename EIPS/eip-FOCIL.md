@@ -14,7 +14,7 @@ created: 2024-07-??
 Implement a robust mechanism to preserve Ethereum’s censorship resistance and chain neutrality properties by guaranteeing timely transaction inclusion. 
 
 FOCIL is built in three simple steps:
-	- Each slot, a set of validators is selected to become IL committee members. Each member gossips one local inclusion list according to their subjective view of the mempool.
+	- In each slot, a set of validators is selected to become IL committee members. Each member gossips one local inclusion list according to their subjective view of the mempool.
 	- The block proposer collects and aggregates available local inclusion lists into a concise aggregate, which is included in its block.
 	- The attesters evaluate the quality of the aggregate given their own view of the gossiped local lists to ensure the block proposer accurately reports the available local lists.
 
